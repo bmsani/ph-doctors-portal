@@ -1,16 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './component/Pages/Header/Header';
-import Footer from './component/Pages/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Home from './component/Pages/Home/Home';
-import About from './component/Pages/About/About';
-import Appointment from './component/Pages/Appointment/Appointment';
-import Reviews from './component/Pages/Reviews/Reviews';
-import ContactUs from './component/Pages/ContactUs/ContactUs';
-import Login from './component/Pages/Login/Login';
-import Register from './component/Pages/Register/Register';
-import NotFound from './component/Pages/NotFound/NotFound';
+import Header from './pages/Shared/Header';
+import Footer from './pages/Shared/Footer';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Login from './pages/Login/Login';
+import Register from './pages/Login/Register';
+import NotFound from './pages/Shared/NotFound';
 
 function App() {
   return (
@@ -19,9 +15,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='/appointment' element={<Appointment></Appointment>}></Route>
-        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
-        <Route path='/contactUs' element={<ContactUs></ContactUs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
