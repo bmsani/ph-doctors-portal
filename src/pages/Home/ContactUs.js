@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
         <div style={{ background: `url(${appointment})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className='w-11/12 mx-auto text-white py-10'>
-                <div className='text-center mx-auto w-[400px]'>
+                <div className='text-center mx-auto w-full lg:w-[400px]'>
                     <h4 className='text-xl text-primary'>Contact us</h4>
                     <h4 className='text-3xl text-white font-bold my-5'>Stay connected with us</h4>
                     <div>
