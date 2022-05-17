@@ -4,13 +4,13 @@ import { format } from 'date-fns';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
 
-const AppointmentBanner = ({date, setDate}) => {
-  
+const AppointmentBanner = ({ date, setDate }) => {
+
     return (
         <div>
-            <div class="hero h-[60vh] bg-base-200">
-                <div class="hero-content flex-col lg:flex-row-reverse gap-10">
-                    <img src={chair} class="max-w-sm rounded-lg shadow-2xl" alt='' />
+            <div className="hero h-[60vh] bg-base-200">
+                <div className="hero-content flex-col lg:flex-row-reverse gap-10">
+                    <img src={chair} className="max-w-sm rounded-lg shadow-2xl" alt='' />
                     <div>
                         <DayPicker
                             mode="single"

@@ -11,10 +11,10 @@ const ContactUs = () => {
                     <h4 className='text-3xl text-white font-bold my-5'>Stay connected with us</h4>
                     <div>
                         <form className='flex flex-col gap-4 text-accent' action="">
-                        <input type="email" placeholder="Email Address" class="input" />
-                        <input type="text" placeholder="Subject" class="input" />
-                        <textarea class="textarea" placeholder="Bio"></textarea>
-                        <PrimaryBtn>Submit</PrimaryBtn>
+                            <input type="email" placeholder="Email Address" className="input" />
+                            <input type="text" placeholder="Subject" className="input" />
+                            <textarea className="textarea" placeholder="Bio"></textarea>
+                            <PrimaryBtn>Submit</PrimaryBtn>
                         </form>
                     </div>
                 </div>
